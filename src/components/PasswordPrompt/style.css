@@ -1,0 +1,30 @@
+.password-input-container-hourly {
+  margin-top: 21px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 82px;
+  padding-right: 20px;
+  padding-left: 54px;
+  background: #efefef;
+  border-radius: 8px;
+  font: 300 15px/15px Lato, sans-serif;
+  font-weight: 700;
+  color: black;
+  border: none;
+  width: 100%;
+}
+.svg-container-low {
+  display: flex;
+  flex: 0 0 auto;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+}
+.password-input-wrapper {
+  position: relative;
+}

@@ -1,0 +1,50 @@
+.password-input-container1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  margin-top: 22px;
+}
+.password-input-container2 {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 94px;
+}
+.password-validation-message-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-top: 4px;
+}
+.password-requirement-message {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 27.75%;
+  padding: 0;
+  margin: 0;
+  font: 900 9px Lato, sans-serif;
+  color: #dc0000;
+  text-transform: uppercase;
+}
+.red-alert-message {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 72.25%;
+  padding: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0;
+  font: 900 9px Lato, sans-serif;
+  color: #dc0000;
+  text-transform: uppercase;
+}

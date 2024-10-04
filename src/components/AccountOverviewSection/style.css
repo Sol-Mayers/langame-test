@@ -1,0 +1,13 @@
+.account-summary-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 100%;
+  padding: 30px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.04);
+  height: 230px;
+}

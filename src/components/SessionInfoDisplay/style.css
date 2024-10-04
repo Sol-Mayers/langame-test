@@ -1,0 +1,34 @@
+.session-info-container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  margin-top: 48px;
+}
+.session-info-container2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+.session-info-text {
+  padding: 0;
+  margin: 0;
+  font: 300 15px Lato, sans-serif;
+  color: black;
+}
+.countdown-info {
+  padding: 0;
+  margin: 0;
+  font: 700 15px Lato, sans-serif;
+  color: black;
+}
+.session-expiration-info-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 23px;
+}

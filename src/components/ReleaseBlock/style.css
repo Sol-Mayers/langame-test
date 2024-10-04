@@ -1,0 +1,92 @@
+.yellow-box-with-text {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 26px;
+  border-radius: 20px;
+}
+.release-banner-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  background: url("/assets/image_af45098f.png") 50% / cover no-repeat;
+}
+.release-promo-container1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: initial;
+  height: 332px;
+  padding-right: 162px;
+  background: url("/assets/image_8b7f68ea.png") 50% / cover no-repeat;
+}
+.release-promo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 52px;
+  padding-bottom: 80px;
+}
+.game-release-title {
+  padding: 0;
+  margin: 0;
+  font: 400 24px/21px HACKED;
+  color: black;
+}
+.swiper {
+  height: 332px!important;
+  border-radius: 20px!important;
+}
+.swiper-button-prev, .swiper-button-next, .swiper-button-disabled {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+
+}
+.swiper-button-prev {
+  top: 40px!important;
+  left: 50%!important;
+  transform: translateX(220%);
+}
+.swiper-button-next {
+  top: 40px!important;
+  left: 50%!important;
+  transform: translateX(350%);
+}
+.swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled {
+  opacity: 0.8;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  content: '';
+  background-image: url('../../../public/assets/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transform: rotate(180deg);
+  width: 8px;
+  height: 15px;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  content: '';
+  background-image: url('../../../public/assets/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 8px;
+  height: 15px;
+}
+.swiper-slide {
+  background-image: url('../../../public/assets/yellow-slider.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}

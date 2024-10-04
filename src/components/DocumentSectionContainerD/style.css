@@ -1,0 +1,32 @@
+.document-info-section {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 22px;
+}
+.document-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.document-card1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  height: 94px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 9px;
+  width: 50%;
+}
+.error-message-notice {
+  padding: 0;
+  padding-right: 48px;
+  padding-left: 343px;
+  margin: 0;
+  margin-top: 5px;
+  font: 900 9px Lato, sans-serif;
+  color: #dc0000;
+  text-transform: uppercase;
+}

@@ -1,0 +1,58 @@
+.card-with-number-input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 82px;
+  padding-right: 22px;
+  padding-left: 22px;
+  margin-left: 26px;
+  background: url("/assets/image_4200a32a.png") 50% / cover no-repeat;
+  border: 2px solid #DC0000;
+    border-radius: 9px;
+    width: 50%;
+    position: relative;
+}
+.card-with-number-input::after {
+  content: 'Пароль должен быть не менее 6 символов';
+    position: absolute;
+    top: 105%;
+    left: 0;
+    font: 900 9px Lato, sans-serif;
+    color: #dc0000;
+    text-transform: uppercase;
+}
+.svg-container4 {
+  display: flex;
+  flex: 0 0 auto;
+  width: 16px;
+  height: 16px;
+}
+.number-input-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  height: 82px;
+  margin-left: 19px;
+}
+.phone-number-label {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 400 13px/12px Lato, sans-serif;
+  color: #010101;
+  opacity: 0.6;
+}
+.important-text {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  margin-top: 12px;
+  font: 900 17px/13px Lato, sans-serif;
+  color: #010101;
+  letter-spacing: 0.17px;
+}

@@ -1,0 +1,8 @@
+.transaction-history-section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: -5px;
+}

@@ -1,0 +1,35 @@
+.contact-info-container2 {
+  box-sizing: border-box;
+  width: 100%;
+}
+.contact-info-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 94px;
+}
+.contact-info-container1 {
+  box-sizing: border-box;
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding-right: 6px;
+  padding-left: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 6px solid #dc0000;
+  border-radius: 9px;
+}
+.error-message-notification {
+  padding: 0;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin: 0;
+  margin-top: 3px;
+  font: 900 9px Lato, sans-serif;
+  color: #dc0000;
+  text-transform: uppercase;
+}

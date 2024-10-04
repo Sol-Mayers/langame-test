@@ -1,0 +1,48 @@
+.transaction-history-section {
+}
+.account-info-container1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+.session-info-heading {
+  padding: 0;
+  margin: 0;
+  font: 300 15px Lato, sans-serif;
+  color: black;
+  text-transform: uppercase;
+}
+.svg-container2 {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.account-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20.5px;
+}
+.price-container {
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+.standout-text {
+  font: 900 34px/22px Lato, sans-serif;
+  letter-spacing: 1px;
+}
+.price-highlighted {
+  font: 700 33px/22px Lato, sans-serif;
+  letter-spacing: 1px;
+}
+.price-tag-text1 {
+  font: 100 34px/24px Lato, sans-serif;
+  letter-spacing: 1px;
+}

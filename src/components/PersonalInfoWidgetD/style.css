@@ -1,0 +1,74 @@
+.birthdate-container1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 21px;
+  padding-left: 29px;
+  margin-left: 26px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 2px solid #00ae31;
+  border-radius: 9px;
+  width: 50%;
+}
+.birthdate-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg-container4 {
+  display: flex;
+  flex: 0 0 auto;
+  width: 16px;
+  height: 16px;
+}
+.birth-date-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  margin-left: 18px;
+}
+.phone-number-label {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 400 13px/12px Lato, sans-serif;
+  color: #010101;
+  opacity: 0.6;
+}
+.birthdate-container2 {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 12px;
+}
+.bold-title {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 900 17px/13px Lato, sans-serif;
+  color: #010101;
+  letter-spacing: 0.17px;
+}
+.svg-container5 {
+  display: flex;
+  flex: 0 0 auto;
+  width: 12px;
+  height: 12px;
+  margin-left: 10.5px;
+}
+.svg-container2 {
+  display: flex;
+  flex: 0 0 auto;
+  width: 16px;
+  height: 16px;
+  color: #00ae31;
+}

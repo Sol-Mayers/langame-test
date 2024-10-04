@@ -1,0 +1,27 @@
+.app-download-section1 {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 23px;
+  padding-left: 25px;
+  margin-top: 83px;
+}
+.app-download-message {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 400 14px/14px Lato, sans-serif;
+  color: black;
+}
+.app-download-section {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  height: 38px;
+  margin-top: 24px;
+}

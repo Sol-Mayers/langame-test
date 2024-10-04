@@ -1,0 +1,33 @@
+.center-box-with-text {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20.5px;
+  padding-left: 12px;
+  margin-left: 21px;
+  background: black;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.location-label {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  margin-left: 11.5px;
+  font: 400 10px Lato, sans-serif;
+  color: white;
+}
+.location-marker {
+  flex: 0 0 auto;
+  margin-top: -7.25px;
+}
+.boxy-image {
+  box-sizing: border-box;
+  display: block;
+  width: 103px;
+  max-width: initial;
+  height: 25px;
+}

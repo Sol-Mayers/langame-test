@@ -1,0 +1,13 @@
+.filled-wrapper .login-container {
+    background: #DC0000;
+    border-radius: 24px;
+}
+.filled-wrapper .password-input-wrapper::after {
+    content: 'показать';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}

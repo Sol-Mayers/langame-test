@@ -1,0 +1,63 @@
+.user-registration-form-style {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 55px;
+}
+.center-aligned-flex-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: stretch;
+  align-self: center;
+  justify-content: center;
+  height: 37px;
+}
+.simplified-button {
+  box-sizing: border-box;
+  display: block;
+  flex: 0 0 auto;
+  width: 156px;
+  min-width: 156px;
+  height: 37px;
+  margin-left: 25px;
+  font: 700 11px Lato, sans-serif;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #efefef;
+  border: none;
+  border-radius: 35px;
+  opacity: 0.5;
+}
+.main-navigation-bar {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 62px;
+    border: 1px solid gray;
+    padding: 16px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.svg-container8 {
+  display: flex;
+  flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
+}
+.main-link-text-style {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  margin-left: 9.5px;
+  font: 700 14px Lato, sans-serif;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.14px;
+}

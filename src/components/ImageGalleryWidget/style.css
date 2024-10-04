@@ -1,0 +1,116 @@
+.tournament-details-container {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 26px;
+  border-radius: 20px;
+}
+.tournament-details-container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.horizontal-align-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.svg-container3 {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  color: #ffffff;
+}
+.image-container {
+  box-sizing: border-box;
+  display: block;
+  width: 66px;
+  max-width: initial;
+  height: 28.5px;
+  margin-left: 27.5px;
+  border: none;
+  object-fit: cover;
+}
+.logo-container {
+  box-sizing: border-box;
+  display: block;
+  width: 75px;
+  max-width: initial;
+  height: 31px;
+  margin-left: 286px;
+}
+.tournament-location-info1 {
+  padding-right: 2.5px;
+  padding-left: 2.5px;
+  margin-top: 39px;
+}
+.tournament-location-image {
+  box-sizing: border-box;
+  display: block;
+  width: 187px;
+  max-width: initial;
+  height: 135px;
+  clip-path: path("M0,0h187v135.289h-187z");
+  object-fit: cover;
+}
+.tournament-location-info {
+  padding: 0;
+  margin: 0;
+  margin-top: 26.5px;
+  font: 400 12px/14px "Days One", sans-serif;
+  color: white;
+  text-align: left;
+}
+.swiper {
+  height: 332px!important;
+  border-radius: 20px!important;
+}
+.swiper-button-prev, .swiper-button-next, .swiper-button-disabled {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+
+}
+.swiper-button-prev {
+  top: 40px!important;
+  left: 50%!important;
+  transform: translateX(220%);
+}
+.swiper-button-next {
+  top: 40px!important;
+  left: 50%!important;
+  transform: translateX(350%);
+}
+.swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled {
+  opacity: 0.8;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+  content: '';
+  background-image: url('../../../public/assets/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transform: rotate(180deg);
+  width: 8px;
+  height: 15px;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+  content: '';
+  background-image: url('../../../public/assets/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 8px;
+  height: 15px;
+}
+.tournament-details-container .swiper-slide {
+  background-image: url('../../../public/assets/black-slider.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}

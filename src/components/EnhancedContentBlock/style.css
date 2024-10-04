@@ -1,0 +1,33 @@
+.payment-button-container {
+  padding-right: 2px;
+  margin-top: 31px;
+}
+.payment-button-container1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  background: url("/assets/image_8a23057d.png") 50% / cover no-repeat;
+  cursor: pointer;
+  border-radius: 64px;
+}
+.payment-button-container1:hover p {
+color: black;
+}
+.vertical-centered-text-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  height: 42px;
+}
+.uppercase-white-text {
+  padding: 0;
+  margin: 0;
+  font: 900 13px Lato, sans-serif;
+  color: white;
+  text-transform: uppercase;
+}

@@ -1,0 +1,117 @@
+.main-content-container-app {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 91px 103px 17px;
+  background: url("/assets/image_8120a71a.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.footer-section {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: 85px;
+}
+.horizontal-flex-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  position: relative;
+}
+.header-section {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+}
+.primary-text-content-style {
+  padding: 0;
+  margin: 0;
+  font: 400 12px Lato, sans-serif;
+  color: black;
+  cursor: pointer;
+}
+.powered-by-section {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 19px;
+}
+.powered-by-label {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 400 15px Lato, sans-serif;
+  color: black;
+}
+.powered-by-logo {
+  box-sizing: border-box;
+  display: block;
+  width: 86px;
+  max-width: initial;
+  height: 12px;
+}
+.bold-heading {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 900 15px Lato, sans-serif;
+  color: black;
+}
+.time-indicator-container {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  height: 72px;
+  position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.time-box {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  height: 37px;
+  padding-right: 8px;
+  padding-left: 8px;
+  background: white;
+  border: 2px solid #c9c9c9;
+  border-radius: 10px;
+}
+.bold-heading1 {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  font: 900 15px/17px Lato, sans-serif;
+  color: black;
+  letter-spacing: 1.5px;
+}
+.big-bold-black-text {
+  flex: 0 0 auto;
+  padding: 0;
+  margin: 0;
+  margin-left: 14px;
+  font: 700 45px/50px Arial;
+  color: black;
+  letter-spacing: 1.5px;
+}

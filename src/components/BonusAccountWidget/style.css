@@ -1,0 +1,28 @@
+.bonus-account-container {
+  box-sizing: border-box;
+  padding: 7px 18px 10px;
+  margin-left: 15px;
+  background: rgba(0, 0, 0, 0.09);
+  border-radius: 11px;
+}
+.bonus-amount-text-style {
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+.bold-price-text {
+  font: 900 15px/15px Lato, sans-serif;
+}
+.price-amount-symbol {
+  font: 700 15px/15px Lato, sans-serif;
+}
+.price-tag-text {
+  font: 100 15px/15px Lato, sans-serif;
+}
+.bonus-account-label {
+  padding: 0;
+  margin: 0;
+  margin-top: -2px;
+  font: 100 9px Lato, sans-serif;
+  color: black;
+}

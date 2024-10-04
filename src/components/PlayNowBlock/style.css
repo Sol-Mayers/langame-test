@@ -1,0 +1,25 @@
+.game-promo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-right: 2.5px;
+  padding-left: 3.5px;
+  margin-top: 110px;
+}
+.hacked-text-styler {
+  padding: 0;
+  margin: 0;
+  font: 400 14px/17px HACKED;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+.cyber-text-bold {
+  padding: 0;
+  margin: 0;
+  margin-top: 13.5px;
+  font: 400 17px HACKED;
+  color: black;
+  text-transform: uppercase;
+}
